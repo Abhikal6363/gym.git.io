@@ -1,0 +1,191 @@
+/* navbar */
+
+body {
+    background-image: url('./img/background.jpg');
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background-repeat: no-repeat;
+
+
+
+}
+
+
+
+#navbar {}
+
+/* left */
+.left {
+    position: absolute;
+
+    display: inline-block;
+    left: 30px;
+    top: 10px;
+
+
+
+
+
+}
+
+/* mid */
+
+.mid {
+    display: block;
+
+    width: 70%;
+    margin: 30px auto;
+    text-align: center;
+
+
+
+}
+
+
+
+/* right */
+
+.right {
+    position: absolute;
+
+
+    display: inline-block;
+    right: 30px;
+
+    top: 18px;
+
+}
+
+/*  li */
+
+#navbar li {
+
+    list-style: none;
+    display: inline-block;
+    font-size: 25px;
+    font-family: 'Baloo Bhai';
+}
+
+
+/* li a */
+
+#navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 3px 25px;
+
+
+}
+
+/* hover active */
+#navbar li a:hover {
+    text-decoration: underline;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    border: 2px solid rgb(223, 86, 6);
+
+}
+
+#navbar li a.active {
+
+    text-decoration: underline;
+
+    color: rgb(211, 228, 181);
+}
+
+/* img */
+
+.left img {
+
+    height: 100px;
+    width: 100%;
+
+
+}
+
+
+#divid {
+    text-align: center;
+    font-size: 25px;
+
+}
+
+
+/* button */
+.btn {
+
+    padding: 5px 14px;
+    margin: 11px 8px;
+    border-radius: 9px;
+    color: white;
+    background-color: black;
+    border: 2px solid gray;
+    font-size: 15px;
+    cursor: pointer;
+
+
+}
+
+
+.btn:hover {
+
+    background-color: rgb(61, 60, 60);
+
+
+}
+
+.container {
+
+    width: 33%;
+    /* border: 2px solid white; */
+    margin: 80px auto;
+    padding: 20px 75px;
+
+}
+
+#submit {
+    position: relative;
+    cursor: pointer;
+    margin: 8px 200px;
+
+}
+
+.formgroup input {
+
+    text-align: center;
+
+
+    display: block;
+    width: 70%;
+    padding: 5px;
+    border: 2px solid rgb(20, 20, 20);
+    margin: 10px auto;
+}
+
+.container h1 {
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    background-color: rgb(201, 235, 223);
+    color: black;
+    border: 2px solid black;
+    border-radius: 20px;
+
+    text-align: center;
+}
+
+.container button {
+
+    display: block;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    width: 75%;
+    margin: 17px auto;
+    border: 2px solid white;
+    cursor: pointer;
+
+}
